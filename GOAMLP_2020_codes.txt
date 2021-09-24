@@ -1,0 +1,14 @@
+Here is the list of the dataset that we used in GOAMLP paper 2020:
+
+https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets
+http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+
+
+KDD raw dataset requires preprocessing and so on. We suggest everyone use the below numerical and normalized datasets. (text numerical files)
+
+NSLKDD1.txt
+NSLKDD2.txt
+normalKDD1.txt
+
+
+
