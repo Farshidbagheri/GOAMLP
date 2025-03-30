@@ -1,21 +1,21 @@
 
-# GOAMLP: A Novel Optimization Algorithm for Intrusion Detection Systems (IDS)
+# GOAMLP: Network Intrusion Detection with Multilayer Perceptron and Grasshopper Optimization Algorithm
 
 ## Introduction
-GOAMLP (Genetic Optimized Adaptive Multi-Layer Perceptron) is a novel machine learning algorithm specifically designed to optimize Intrusion Detection Systems (IDS) by leveraging genetic algorithms. This repository contains the implementation of the GOAMLP algorithm along with datasets and evaluation metrics. 
+GOAMLP combines the Grasshopper Optimization Algorithm (GOA) with Multi-Layer Perceptron (MLP) networks to enhance the performance of Intrusion Detection Systems (IDS). GOA is a swarm-based optimization technique inspired by the natural behavior of grasshoppers. This algorithm is known for its strong exploration and exploitation capabilities, making it effective for training neural networks like MLP.
 
-The GOAMLP algorithm aims to enhance the accuracy, sensitivity, and specificity of IDS by integrating genetic optimization with multi-layer perceptron networks. The project is based on the paper published by Farshid Bagheri and collaborators, where the results demonstrate significant improvements compared to existing methods.
+This repository contains the implementation of the GOAMLP algorithm along with datasets and evaluation metrics as described in the published paper.
 
 🔗 **Link to the published paper:** [IEEE Xplore](https://ieeexplore.ieee.org/document/9272378)
 
 ---
 
 ## Algorithm Overview
-The GOAMLP algorithm integrates Genetic Optimization techniques with MLP (Multi-Layer Perceptron) to enhance IDS performance. The primary objective is to minimize error rates while maximizing detection accuracy.
+The GOAMLP algorithm uses the Grasshopper Optimization Algorithm (GOA) to optimize the weights and biases of a Multi-Layer Perceptron (MLP). This hybrid approach aims to improve the accuracy, sensitivity, and specificity of IDS by finding optimal solutions through the GOA's exploration and exploitation mechanisms.
 
-### Key Features:
+### 📝 Key Features:
 - High accuracy and sensitivity for intrusion detection.
-- Genetic optimization to improve model adaptability.
+- Grasshopper Optimization Algorithm (GOA) for improved training of MLP.
 - Applicable to various IDS datasets, including KDD and UNSW-NB15.
 - Efficient computational performance with reduced error rates.
 
@@ -28,7 +28,7 @@ GOAMLP/
 ├── data/                   # Datasets (KDD, UNSW-NB15)
 ├── src/                    # Source code for GOAMLP algorithm
 │   ├── CostNetwork.m       # Cost function for network optimization
-│   ├── IDSGOA20.m          # Genetic optimization algorithm
+│   ├── IDSGOA20.m          # Grasshopper Optimization Algorithm implementation
 │   ├── Main.m              # Main script to run the algorithm
 │   ├── GOAMLP_2020_codes.txt # Explanation of datasets and preprocessing steps
 │   └── DS.mat              # Processed data used for the algorithm
@@ -77,7 +77,7 @@ The performance of GOAMLP is evaluated using the following metrics:
 - **Mean Squared Error (MSE):** Quantifies the prediction error.
 - **Root Mean Squared Error (RMSE):** Measures the standard deviation of prediction errors.
 
-### Experimental Results from the Paper
+### 📝 Experimental Results from the Paper
 The GOAMLP algorithm demonstrated superior performance with the following results:
 
 
@@ -114,15 +114,10 @@ Access, vol. 8, pp. 215202-215213, 2020. Available at: [IEEE Xplore](https://iee
 
 ---
 
-## Further Information
-For more details about the implementation or to explore the dataset, please take a look at the original publication or visit the official GitHub page.
-
----
-
 ## Contributors
-- Farshid Bagheri: Conceptualization, Original Idea, Algorithm Design, Implementation, and Manuscript Preparation.
-- Collaborators: Data Analysis, Evaluation, and Review.
-- Special Acknowledgment: Professor Ehsan Sheybani, University of South Florida, for valuable guidance and mentorship.
+- **Farshid Bagheri (Original Author & Lead Developer):** Conceptualization, Original Idea, Algorithm Design, Implementation, and Manuscript Preparation.  
+- **Collaborators:** Data Analysis, Evaluation, and Review.  
+- **Special Acknowledgment:** Professor Sheybani, University of South Florida, for valuable guidance and mentorship.  
 
 ---
 
